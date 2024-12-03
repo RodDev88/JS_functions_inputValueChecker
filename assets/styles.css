@@ -1,0 +1,63 @@
+/* General */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8e8d8; /* Fondo pastel cálido */
+    color: #4a4a4a; /* Texto gris oscuro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  /* Formulario */
+  form {
+    background-color: #ffefd5; /* Color suave crema */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 10px;
+    color: #734b3d; /* Marrón estilo retro */
+  }
+  
+  input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #c5a880; /* Color beige oscuro */
+    border-radius: 3px;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #e07628; /* Naranja apagado */
+    color: #fff; /* Texto blanco */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #d05c1f; /* Tonalidad más oscura al pasar el mouse */
+  }
+  
+  /* Resultado */
+  #result {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #4a4a4a; 
+  }
+  
